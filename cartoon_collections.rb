@@ -20,5 +20,9 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
   # Return the first valid call found, or return nil if no valid calls are found
+<<<<<<< HEAD
   planeteer_calls.find {|key_word| valid_calls.include? key_word}
+=======
+  planeteer_calls.find {|key_word| key_word.include? valid_calls}
+>>>>>>> fcf81edc868e14939f9c0161925b76c210a5bf65
 end
